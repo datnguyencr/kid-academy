@@ -42,7 +42,10 @@ String versionAssets({
 
     // Replace paths in HTML
     final regex = RegExp(
-      r'(' + RegExp.escape(assetPath) + RegExp.escape(nameOnly) + r')(\.[a-f0-9]{8})?' +
+      r'(' +
+          RegExp.escape(assetPath) +
+          RegExp.escape(nameOnly) +
+          r')(\.[a-f0-9]{8})?' +
           RegExp.escape(extension),
     );
 

@@ -1,79 +1,103 @@
 {
-  "items": [
-    { "name": "lion", "image": ["lion.avif"], "sound": ["lion.mp3"] },
-    { "name": "tiger", "image": ["tiger.avif"], "sound": ["tiger.mp3"] },
-    {
-      "name": "elephant",
-      "image": ["elephant.avif"],
-      "sound": ["elephant.mp3"]
-    },
-    { "name": "giraffe", "image": ["giraffe.avif"], "sound": ["giraffe.mp3"] },
-    { "name": "zebra", "image": ["zebra.avif"], "sound": ["zebra.mp3"] },
-    { "name": "monkey", "image": ["monkey.avif"], "sound": ["monkey.mp3"] },
-    { "name": "bear", "image": ["bear.avif"], "sound": ["bear.mp3"] },
-    { "name": "wolf", "image": ["wolf.avif"], "sound": ["wolf.mp3"] },
-    { "name": "fox", "image": ["fox.avif"], "sound": ["fox.mp3"] },
-    {
-      "name": "kangaroo",
-      "image": ["kangaroo.avif"],
-      "sound": ["kangaroo.mp3"]
-    },
-    { "name": "panda", "image": ["panda.avif"], "sound": ["panda.mp3"] },
-    { "name": "koala", "image": ["koala.avif"], "sound": ["koala.mp3"] },
-    {
-      "name": "rhino",
-      "image": ["rhino.avif"],
-      "sound": ["rhino.mp3"]
-    },
-    {
-      "name": "hippo",
-      "image": ["hippo.avif"],
-      "sound": ["hippo.mp3"]
-    },
-    { "name": "leopard", "image": ["leopard.avif"], "sound": ["leopard.mp3"] },
-    { "name": "cheetah", "image": ["cheetah.avif"], "sound": ["cheetah.mp3"] },
-    { "name": "camel", "image": ["camel.avif"], "sound": ["camel.mp3"] },
-    { "name": "deer", "image": ["deer.avif"], "sound": ["deer.mp3"] },
-    { "name": "moose", "image": ["moose.avif"], "sound": ["moose.mp3"] },
-    {
-      "name": "squirrel",
-      "image": ["squirrel.avif"],
-      "sound": ["squirrel.mp3"]
-    },
-    { "name": "rabbit", "image": ["rabbit.avif"], "sound": ["rabbit.mp3"] },
-    { "name": "bat", "image": ["bat.avif"], "sound": ["bat.mp3"] },
-    { "name": "otter", "image": ["otter.avif"], "sound": ["otter.mp3"] },
-    { "name": "beaver", "image": ["beaver.avif"], "sound": ["beaver.mp3"] },
-    { "name": "raccoon", "image": ["raccoon.avif"], "sound": ["raccoon.mp3"] },
-    {
-      "name": "porcupine",
-      "image": ["porcupine.avif"],
-      "sound": ["porcupine.mp3"]
-    },
-    {
-      "name": "armadillo",
-      "image": ["armadillo.avif"],
-      "sound": ["armadillo.mp3"]
-    },
-    {
-      "name": "anteater",
-      "image": ["anteater.avif"],
-      "sound": ["anteater.mp3"]
-    },
-    {
-      "name": "chimpanzee",
-      "image": ["chimpanzee.avif"],
-      "sound": ["chimpanzee.mp3"]
-    },
-    { "name": "gorilla", "image": ["gorilla.avif"], "sound": ["gorilla.mp3"] },
-    { "name": "sloth", "image": ["sloth.avif"], "sound": ["sloth.mp3"] },
-    { "name": "hyena", "image": ["hyena.avif"], "sound": ["hyena.mp3"] },
-    {
-      "name": "mongoose",
-      "image": ["mongoose.avif"],
-      "sound": ["mongoose.mp3"]
-    },
-    { "name": "eland", "image": ["eland.avif"], "sound": ["eland.mp3"] },
-    { "name": "buffalo", "image": ["buffalo.avif"], "sound": ["buffalo.mp3"] }
-  ]
+    "items": [
+        { "name": "lion", "image": ["lion.avif"], "sound": ["lion.mp3"] },
+        { "name": "tiger", "image": ["tiger.avif"], "sound": ["tiger.mp3"] },
+        {
+            "name": "elephant",
+            "image": ["elephant.avif"],
+            "sound": ["elephant.mp3"]
+        },
+        {
+            "name": "giraffe",
+            "image": ["giraffe.avif"],
+            "sound": ["giraffe.mp3"]
+        },
+        { "name": "zebra", "image": ["zebra.avif"], "sound": ["zebra.mp3"] },
+        { "name": "monkey", "image": ["monkey.avif"], "sound": ["monkey.mp3"] },
+        { "name": "bear", "image": ["bear.avif"], "sound": ["bear.mp3"] },
+        { "name": "wolf", "image": ["wolf.avif"], "sound": ["wolf.mp3"] },
+        { "name": "fox", "image": ["fox.avif"], "sound": ["fox.mp3"] },
+        {
+            "name": "kangaroo",
+            "image": ["kangaroo.avif"],
+            "sound": ["kangaroo.mp3"]
+        },
+        { "name": "panda", "image": ["panda.avif"], "sound": ["panda.mp3"] },
+        { "name": "koala", "image": ["koala.avif"], "sound": ["koala.mp3"] },
+        {
+            "name": "rhino",
+            "image": ["rhino.avif"],
+            "sound": ["rhino.mp3"]
+        },
+        {
+            "name": "hippo",
+            "image": ["hippo.avif"],
+            "sound": ["hippo.mp3"]
+        },
+        {
+            "name": "leopard",
+            "image": ["leopard.avif"],
+            "sound": ["leopard.mp3"]
+        },
+        {
+            "name": "cheetah",
+            "image": ["cheetah.avif"],
+            "sound": ["cheetah.mp3"]
+        },
+        { "name": "camel", "image": ["camel.avif"], "sound": ["camel.mp3"] },
+        { "name": "deer", "image": ["deer.avif"], "sound": ["deer.mp3"] },
+        { "name": "moose", "image": ["moose.avif"], "sound": ["moose.mp3"] },
+        {
+            "name": "squirrel",
+            "image": ["squirrel.avif"],
+            "sound": ["squirrel.mp3"]
+        },
+        { "name": "rabbit", "image": ["rabbit.avif"], "sound": ["rabbit.mp3"] },
+        { "name": "bat", "image": ["bat.avif"], "sound": ["bat.mp3"] },
+        { "name": "otter", "image": ["otter.avif"], "sound": ["otter.mp3"] },
+        { "name": "beaver", "image": ["beaver.avif"], "sound": ["beaver.mp3"] },
+        {
+            "name": "raccoon",
+            "image": ["raccoon.avif"],
+            "sound": ["raccoon.mp3"]
+        },
+        {
+            "name": "porcupine",
+            "image": ["porcupine.avif"],
+            "sound": ["porcupine.mp3"]
+        },
+        {
+            "name": "armadillo",
+            "image": ["armadillo.avif"],
+            "sound": ["armadillo.mp3"]
+        },
+        {
+            "name": "anteater",
+            "image": ["anteater.avif"],
+            "sound": ["anteater.mp3"]
+        },
+        {
+            "name": "chimpanzee",
+            "image": ["chimpanzee.avif"],
+            "sound": ["chimpanzee.mp3"]
+        },
+        {
+            "name": "gorilla",
+            "image": ["gorilla.avif"],
+            "sound": ["gorilla.mp3"]
+        },
+        { "name": "sloth", "image": ["sloth.avif"], "sound": ["sloth.mp3"] },
+        { "name": "hyena", "image": ["hyena.avif"], "sound": ["hyena.mp3"] },
+        {
+            "name": "mongoose",
+            "image": ["mongoose.avif"],
+            "sound": ["mongoose.mp3"]
+        },
+        { "name": "eland", "image": ["eland.avif"], "sound": ["eland.mp3"] },
+        {
+            "name": "buffalo",
+            "image": ["buffalo.avif"],
+            "sound": ["buffalo.mp3"]
+        }
+    ]
 }
