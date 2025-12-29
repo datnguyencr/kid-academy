@@ -1,7 +1,7 @@
 # CV Builder
 
-A lightweight PDF generator that creates professional CVs directly in the browser.
+A lightweight static learning website for kids(Alphabet, Numbers, Animals, Birds).
 
-## 🚀 [View Site](https://datnguyencr.github.io/cv-builder-web/)
+## 🚀 [View Site](https://datnguyencr.github.io/kid-academy/)
 
 ---
