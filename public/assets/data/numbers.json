@@ -1,0 +1,18 @@
+{
+  "items": [
+    { "name": "1", "image": ["1.avif"], "sound": ["1.mp3"] },
+    { "name": "2", "image": ["2.avif"], "sound": ["2.mp3"] },
+    {
+      "name": "3",
+      "image": ["3.avif"],
+      "sound": ["3.mp3"]
+    },
+    { "name": "4", "image": ["4.avif"], "sound": ["4.mp3"] },
+    { "name": "5", "image": ["5.avif"], "sound": ["5.mp3"] },
+    { "name": "6", "image": ["6.avif"], "sound": ["6.mp3"] },
+    { "name": "7", "image": ["7.avif"], "sound": ["7.mp3"] },
+    { "name": "8", "image": ["8.avif"], "sound": ["8.mp3"] },
+    { "name": "9", "image": ["9.avif"], "sound": ["9.mp3"] },
+    { "name": "10", "image": ["10.avif"], "sound": ["10.mp3"] }
+  ]
+}

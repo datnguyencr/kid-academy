@@ -1,0 +1,76 @@
+{
+  "items": [
+    { "name": "owl", "image": ["owl.avif"], "sound": ["owl.mp3"] },
+    {
+      "name": "bald-eagle",
+      "image": ["bald-eagle.avif"],
+      "sound": ["bald-eagle.mp3"]
+    },
+    { "name": "duck", "image": ["duck.avif"], "sound": ["duck.mp3"] },
+    {
+      "name": "flamingo",
+      "image": ["flamingo.avif"],
+      "sound": ["flamingo.mp3"]
+    },
+    { "name": "peacock", "image": ["peacock.avif"], "sound": ["peacock.mp3"] },
+    { "name": "penguin", "image": ["penguin.avif"], "sound": ["penguin.mp3"] },
+    { "name": "swan", "image": ["swan.avif"], "sound": ["swan.mp3"] },
+    { "name": "parrot", "image": ["parrot.avif"], "sound": ["parrot.mp3"] },
+    { "name": "canary", "image": ["canary.avif"], "sound": ["canary.mp3"] },
+    { "name": "sparrow", "image": ["sparrow.avif"], "sound": ["sparrow.mp3"] },
+    { "name": "robin", "image": ["robin.avif"], "sound": ["robin.mp3"] },
+    { "name": "pigeon", "image": ["pigeon.avif"], "sound": ["pigeon.mp3"] },
+    {
+      "name": "woodpecker",
+      "image": ["woodpecker.avif"],
+      "sound": ["woodpecker.mp3"]
+    },
+    {
+      "name": "hummingbird",
+      "image": ["hummingbird.avif"],
+      "sound": ["hummingbird.mp3"]
+    },
+    {
+      "name": "kingfisher",
+      "image": ["kingfisher.avif"],
+      "sound": ["kingfisher.mp3"]
+    },
+    { "name": "heron", "image": ["heron.avif"], "sound": ["heron.mp3"] },
+    { "name": "stork", "image": ["stork.avif"], "sound": ["stork.mp3"] },
+    { "name": "seagull", "image": ["seagull.avif"], "sound": ["seagull.mp3"] },
+    { "name": "raven", "image": ["raven.avif"], "sound": ["raven.mp3"] },
+    { "name": "falcon", "image": ["falcon.avif"], "sound": ["falcon.mp3"] },
+    { "name": "hawk", "image": ["hawk.avif"], "sound": ["hawk.mp3"] },
+    { "name": "toucan", "image": ["toucan.avif"], "sound": ["toucan.mp3"] },
+    { "name": "crane", "image": ["crane.avif"], "sound": ["crane.mp3"] },
+    { "name": "ibis", "image": ["ibis.avif"], "sound": ["ibis.mp3"] },
+    { "name": "vulture", "image": ["vulture.avif"], "sound": ["vulture.mp3"] },
+
+    { "name": "bluejay", "image": ["bluejay.avif"], "sound": ["bluejay.mp3"] },
+    {
+      "name": "cardinal",
+      "image": ["cardinal.avif"],
+      "sound": ["cardinal.mp3"]
+    },
+    {
+      "name": "mockingbird",
+      "image": ["mockingbird.avif"],
+      "sound": ["mockingbird.mp3"]
+    },
+    {
+      "name": "roadrunner",
+      "image": ["roadrunner.avif"],
+      "sound": ["roadrunner.mp3"]
+    },
+    {
+      "name": "cockatoo",
+      "image": ["cockatoo.avif"],
+      "sound": ["cockatoo.mp3"]
+    },
+    {
+      "name": "ostrich",
+      "image": ["ostrich.avif"],
+      "sound": ["ostrich.mp3"]
+    }
+  ]
+}

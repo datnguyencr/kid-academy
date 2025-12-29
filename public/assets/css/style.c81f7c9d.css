@@ -1,0 +1,20 @@
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.menu-btn:active {
+  transform: scale(0.95);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
