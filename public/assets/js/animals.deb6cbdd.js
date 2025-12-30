@@ -34,7 +34,7 @@ fetch("assets/data/animals.json")
                 };
                 playBtn.onclick = () => {
                     const audio = new Audio(
-                        `assets/sounds/animals/${item.sound[0]}`
+                        `assets/media/animals/${item.sound[0]}`
                     );
                     audio.play();
                 };

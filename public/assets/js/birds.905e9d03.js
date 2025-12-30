@@ -2,6 +2,9 @@ const container = document.getElementById("items");
 const template = document.getElementById("item-template");
 const dialog = document.getElementById("dialog");
 
+const audio = new Audio();
+audio.preload = "auto";
+
 fetch("assets/data/birds.json")
     .then((res) => res.json())
     .then((data) => {
@@ -29,12 +32,15 @@ fetch("assets/data/birds.json")
                 img.src = `assets/images/birds/${item.image[0]}`;
                 img.alt = item.name;
                 name.onclick = () => {
-                    const utterance = new SpeechSynthesisUtterance(item.name);
-                    speechSynthesis.speak(utterance);
+                    audio.src = `assets/media/birds/${item.sound[0]}`;
+                    audio.currentTime = 0;
+                    audio.play().catch((err) => {
+                        console.error("Audio play failed:", err);
+                    });
                 };
                 playBtn.onclick = () => {
                     const audio = new Audio(
-                        `assets/sounds/birds/${item.sound[0]}`
+                        `assets/media/birds/${item.sound[0]}`
                     );
                     audio.play();
                 };

@@ -2,7 +2,6 @@ const container = document.getElementById("items");
 const template = document.getElementById("item-template");
 const dialog = document.getElementById("dialog");
 
-// reuse a single audio player
 const audio = new Audio();
 audio.preload = "auto";
 
@@ -30,7 +29,7 @@ fetch("assets/data/numbers.json")
                 dialogImg.alt = item.name;
 
                 dialogName.onclick = () => {
-                    audio.src = `assets/sounds/numbers/${item.sound[0]}`;
+                    audio.src = `assets/media/numbers/${item.sound[0]}`;
                     audio.currentTime = 0;
                     audio.play().catch((err) => {
                         console.error("Audio play failed:", err);
