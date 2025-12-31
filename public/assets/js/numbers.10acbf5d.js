@@ -21,14 +21,13 @@ fetch("assets/data/numbers.json")
             container.appendChild(clone);
 
             card.addEventListener("click", () => {
-                const dialogName = dialog.querySelector(".item-name");
+                const playBtn = document.getElementById("play-btn");
                 const dialogImg = dialog.querySelector(".item-image");
 
-                dialogName.innerText = item.name;
                 dialogImg.src = `assets/images/numbers/${item.image[0]}`;
                 dialogImg.alt = item.name;
 
-                dialogName.onclick = () => {
+                playBtn.onclick = () => {
                     audio.src = `assets/media/numbers/${item.sound[0]}`;
                     audio.currentTime = 0;
                     audio.play().catch((err) => {

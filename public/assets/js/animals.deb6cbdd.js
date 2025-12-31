@@ -28,11 +28,11 @@ fetch("assets/data/animals.json")
                 const img = dialog.querySelector(".item-image");
                 img.src = `assets/images/animals/${item.image[0]}`;
                 img.alt = item.name;
-                name.onclick = () => {
+                playBtn.onclick = () => {
                     const utterance = new SpeechSynthesisUtterance(item.name);
                     speechSynthesis.speak(utterance);
                 };
-                playBtn.onclick = () => {
+                img.onclick = () => {
                     const audio = new Audio(
                         `assets/media/animals/${item.sound[0]}`
                     );
