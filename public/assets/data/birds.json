@@ -2,9 +2,9 @@
     "items": [
         { "name": "owl", "image": ["owl.avif"], "sound": ["owl.mp3"] },
         {
-            "name": "bald-eagle",
-            "image": ["bald-eagle.avif"],
-            "sound": ["bald-eagle.mp3"]
+            "name": "eagle",
+            "image": ["eagle.avif"],
+            "sound": ["eagle.mp3"]
         },
         { "name": "duck", "image": ["duck.avif"], "sound": ["duck.mp3"] },
         {
