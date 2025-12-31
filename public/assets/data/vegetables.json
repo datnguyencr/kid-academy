@@ -1,0 +1,165 @@
+{
+    "items": [
+        { "name": "carrot", "image": ["carrot.avif"], "sound": ["carrot.mp3"] },
+        {
+            "name": "broccoli",
+            "image": ["broccoli.avif"],
+            "sound": ["broccoli.mp3"]
+        },
+        {
+            "name": "cauliflower",
+            "image": ["cauliflower.avif"],
+            "sound": ["cauliflower.mp3"]
+        },
+        {
+            "name": "spinach",
+            "image": ["spinach.avif"],
+            "sound": ["spinach.mp3"]
+        },
+        { "name": "kale", "image": ["kale.avif"], "sound": ["kale.mp3"] },
+        {
+            "name": "lettuce",
+            "image": ["lettuce.avif"],
+            "sound": ["lettuce.mp3"]
+        },
+        {
+            "name": "cabbage",
+            "image": ["cabbage.avif"],
+            "sound": ["cabbage.mp3"]
+        },
+        { "name": "tomato", "image": ["tomato.avif"], "sound": ["tomato.mp3"] },
+        {
+            "name": "cucumber",
+            "image": ["cucumber.avif"],
+            "sound": ["cucumber.mp3"]
+        },
+        { "name": "pepper", "image": ["pepper.avif"], "sound": ["pepper.mp3"] },
+        {
+            "name": "eggplant",
+            "image": ["eggplant.avif"],
+            "sound": ["eggplant.mp3"]
+        },
+        {
+            "name": "pumpkin",
+            "image": ["pumpkin.avif"],
+            "sound": ["pumpkin.mp3"]
+        },
+        { "name": "radish", "image": ["radish.avif"], "sound": ["radish.mp3"] },
+        {
+            "name": "beetroot",
+            "image": ["beetroot.avif"],
+            "sound": ["beetroot.mp3"]
+        },
+        { "name": "onion", "image": ["onion.avif"], "sound": ["onion.mp3"] },
+        { "name": "garlic", "image": ["garlic.avif"], "sound": ["garlic.mp3"] },
+        { "name": "leek", "image": ["leek.avif"], "sound": ["leek.mp3"] },
+        {
+            "name": "sweet potato",
+            "image": ["sweet-potato.avif"],
+            "sound": ["sweet-potato.mp3"]
+        },
+        { "name": "potato", "image": ["potato.avif"], "sound": ["potato.mp3"] },
+        { "name": "corn", "image": ["corn.avif"], "sound": ["corn.mp3"] },
+        {
+            "name": "green bean",
+            "image": ["greenbean.avif"],
+            "sound": ["greenbean.mp3"]
+        },
+        {
+            "name": "mushroom",
+            "image": ["mushroom.avif"],
+            "sound": ["mushroom.mp3"]
+        },
+        {
+            "name": "bok choy",
+            "image": ["bokchoy.avif"],
+            "sound": ["bokchoy.mp3"]
+        },
+        { "name": "chard", "image": ["chard.avif"], "sound": ["chard.mp3"] },
+        {
+            "name": "arugula",
+            "image": ["arugula.avif"],
+            "sound": ["arugula.mp3"]
+        },
+        {
+            "name": "brussels sprouts",
+            "image": ["brusselssprouts.avif"],
+            "sound": ["brusselssprouts.mp3"]
+        },
+        {
+            "name": "cabbage sprouts",
+            "image": ["cabbagesprouts.avif"],
+            "sound": ["cabbagesprouts.mp3"]
+        },
+        {
+            "name": "parsley",
+            "image": ["parsley.avif"],
+            "sound": ["parsley.mp3"]
+        },
+        {
+            "name": "cilantro",
+            "image": ["cilantro.avif"],
+            "sound": ["cilantro.mp3"]
+        },
+        { "name": "dill", "image": ["dill.avif"], "sound": ["dill.mp3"] },
+        { "name": "basil", "image": ["basil.avif"], "sound": ["basil.mp3"] },
+        {
+            "name": "oregano",
+            "image": ["oregano.avif"],
+            "sound": ["oregano.mp3"]
+        },
+        { "name": "thyme", "image": ["thyme.avif"], "sound": ["thyme.mp3"] },
+        {
+            "name": "rosemary",
+            "image": ["rosemary.avif"],
+            "sound": ["rosemary.mp3"]
+        },
+        { "name": "sage", "image": ["sage.avif"], "sound": ["sage.mp3"] },
+        {
+            "name": "watercress",
+            "image": ["watercress.avif"],
+            "sound": ["watercress.mp3"]
+        },
+        {
+            "name": "kohlrabi",
+            "image": ["kohlrabi.avif"],
+            "sound": ["kohlrabi.mp3"]
+        },
+        {
+            "name": "rutabaga",
+            "image": ["rutabaga.avif"],
+            "sound": ["rutabaga.mp3"]
+        },
+        { "name": "turnip", "image": ["turnip.avif"], "sound": ["turnip.mp3"] },
+        {
+            "name": "edamame",
+            "image": ["edamame.avif"],
+            "sound": ["edamame.mp3"]
+        },
+        {
+            "name": "jalapeno",
+            "image": ["jalapeno.avif"],
+            "sound": ["jalapeno.mp3"]
+        },
+        {
+            "name": "chili pepper",
+            "image": ["chilipepper.avif"],
+            "sound": ["chilipepper.mp3"]
+        },
+        {
+            "name": "bell pepper",
+            "image": ["bellpepper.avif"],
+            "sound": ["bellpepper.mp3"]
+        },
+        {
+            "name": "cabbage",
+            "image": ["cabbage2.avif"],
+            "sound": ["cabbage2.mp3"]
+        },
+        {
+            "name": "radicchio",
+            "image": ["radicchio.avif"],
+            "sound": ["radicchio.mp3"]
+        }
+    ]
+}

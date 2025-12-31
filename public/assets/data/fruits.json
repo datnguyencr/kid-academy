@@ -1,0 +1,107 @@
+{
+    "items": [
+        { "name": "apple", "image": ["apple.avif"], "sound": ["apple.mp3"] },
+        { "name": "banana", "image": ["banana.avif"], "sound": ["banana.mp3"] },
+        { "name": "orange", "image": ["orange.avif"], "sound": ["orange.mp3"] },
+        { "name": "mango", "image": ["mango.avif"], "sound": ["mango.mp3"] },
+        {
+            "name": "strawberry",
+            "image": ["strawberry.avif"],
+            "sound": ["strawberry.mp3"]
+        },
+        {
+            "name": "blueberry",
+            "image": ["blueberry.avif"],
+            "sound": ["blueberry.mp3"]
+        },
+        {
+            "name": "raspberry",
+            "image": ["raspberry.avif"],
+            "sound": ["raspberry.mp3"]
+        },
+        {
+            "name": "pineapple",
+            "image": ["pineapple.avif"],
+            "sound": ["pineapple.mp3"]
+        },
+        {
+            "name": "watermelon",
+            "image": ["watermelon.avif"],
+            "sound": ["watermelon.mp3"]
+        },
+        {
+            "name": "cantaloupe",
+            "image": ["cantaloupe.avif"],
+            "sound": ["cantaloupe.mp3"]
+        },
+        { "name": "grape", "image": ["grape.avif"], "sound": ["grape.mp3"] },
+        { "name": "kiwi", "image": ["kiwi.avif"], "sound": ["kiwi.mp3"] },
+        { "name": "papaya", "image": ["papaya.avif"], "sound": ["papaya.mp3"] },
+        { "name": "peach", "image": ["peach.avif"], "sound": ["peach.mp3"] },
+
+        {
+            "name": "apricot",
+            "image": ["apricot.avif"],
+            "sound": ["apricot.mp3"]
+        },
+        { "name": "lemon", "image": ["lemon.avif"], "sound": ["lemon.mp3"] },
+        { "name": "lime", "image": ["lime.avif"], "sound": ["lime.mp3"] },
+        {
+            "name": "tangerine",
+            "image": ["tangerine.avif"],
+            "sound": ["tangerine.mp3"]
+        },
+        {
+            "name": "pomegranate",
+            "image": ["pomegranate.avif"],
+            "sound": ["pomegranate.mp3"]
+        },
+        {
+            "name": "dragonfruit",
+            "image": ["dragonfruit.avif"],
+            "sound": ["dragonfruit.mp3"]
+        },
+        { "name": "lychee", "image": ["lychee.avif"], "sound": ["lychee.mp3"] },
+        {
+            "name": "coconut",
+            "image": ["coconut.avif"],
+            "sound": ["coconut.mp3"]
+        },
+        {
+            "name": "avocado",
+            "image": ["avocado.avif"],
+            "sound": ["avocado.mp3"]
+        },
+        { "name": "pear", "image": ["pear.avif"], "sound": ["pear.mp3"] },
+        { "name": "fig", "image": ["fig.avif"], "sound": ["fig.mp3"] },
+        { "name": "guava", "image": ["guava.avif"], "sound": ["guava.mp3"] },
+        {
+            "name": "jackfruit",
+            "image": ["jackfruit.avif"],
+            "sound": ["jackfruit.mp3"]
+        },
+        { "name": "durian", "image": ["durian.avif"], "sound": ["durian.mp3"] },
+        {
+            "name": "starfruit",
+            "image": ["starfruit.avif"],
+            "sound": ["starfruit.mp3"]
+        },
+        {
+            "name": "mangosteen",
+            "image": ["mangosteen.avif"],
+            "sound": ["mangosteen.mp3"]
+        },
+        { "name": "longan", "image": ["longan.avif"], "sound": ["longan.mp3"] },
+        { "name": "olive", "image": ["olive.avif"], "sound": ["olive.mp3"] },
+        {
+            "name": "soursop",
+            "image": ["soursop.avif"],
+            "sound": ["soursop.mp3"]
+        },
+        {
+            "name": "rambutan",
+            "image": ["rambutan.avif"],
+            "sound": ["rambutan.mp3"]
+        }
+    ]
+}
