@@ -6,59 +6,59 @@ async function loadCategory() {
     const params = new URLSearchParams(window.location.search);
     const category = params.get("category");
 
-    if (!category) {
-        throw new Error("Missing category in URL");
-    }
+    if (!category) throw new Error("Missing category in URL");
 
-    fetch(`assets/data/${category}.json`)
-        .then((res) => res.json())
-        .then((data) => {
-            const container = document.getElementById("items");
-            const template = document.getElementById("item-template");
+    try {
+        const res = await fetch(`assets/data/${category}.json`);
+        const data = await res.json();
 
-            data.items.forEach((item) => {
-                const clone = template.content.cloneNode(true);
-                const card = clone.querySelector(".card");
-                const img = clone.querySelector(".item-image");
-                const name = clone.querySelector(".item-name");
-                img.src = `assets/images/${category}/${item.image[0]}`;
-                img.alt = item.name;
-                name.innerText = item.name;
+        const fragment = document.createDocumentFragment(); // Use fragment for faster DOM updates
 
-                container.appendChild(clone);
+        data.items.forEach((item) => {
+            const clone = template.content.cloneNode(true);
+            const card = clone.querySelector(".card");
+            const img = clone.querySelector(".item-image");
+            const name = clone.querySelector(".item-name");
 
-                card.addEventListener("click", () => {
-                    const name = dialog.querySelector(".item-name");
-                    const playBtn = dialog.querySelector(".play-btn");
+            img.src = `assets/images/${category}/${item.image[0]}`;
+            img.alt = item.name;
+            name.dataset.i18n = item.name;
 
-                    name.innerText = item.name;
-                    const img = dialog.querySelector(".item-image");
-                    img.src = `assets/images/${category}/${item.image[0]}`;
-                    img.alt = item.name;
-                    playBtn.onclick = () => {
-                        const audio = new Audio(
-                            `assets/media/${category}/${item.sound[0]}`
-                        );
-                        audio.play();
-                    };
-                    img.onclick = () => {
-                        const audio = new Audio(
-                            `assets/media/${category}/${item.sound[0]}`
-                        );
-                        audio.play();
-                    };
-                    dialog.classList.remove("hidden");
-                });
+            // Handle card click
+            card.addEventListener("click", () => {
+                const dialogName = dialog.querySelector(".item-name");
+                const dialogImg = dialog.querySelector(".item-image");
+                const playBtn = dialog.querySelector(".play-btn");
+
+                dialogName.dataset.i18n = item.name;
+                dialogImg.src = `assets/images/${category}/${item.image[0]}`;
+                dialogImg.alt = item.name;
+
+                playBtn.onclick = () =>
+                    new Audio(
+                        `assets/media/${category}/${item.sound[0]}`
+                    ).play();
+                dialogImg.onclick = playBtn.onclick;
+
+                dialog.classList.remove("hidden");
+                applyLanguage(language()); // Only needed here for dialog texts
             });
-        })
-        .catch((err) => console.error("Error loading data:", err));
+
+            fragment.appendChild(clone);
+        });
+
+        container.appendChild(fragment);
+
+        // Apply language once after all items are added
+        applyLanguage(language());
+    } catch (err) {
+        console.error("Error loading data:", err);
+    }
 }
+
 loadCategory();
 
 // Close dialog when clicking outside the content
 dialog.addEventListener("click", (e) => {
-    if (e.target === dialog) {
-        // only if clicked on the overlay
-        dialog.classList.add("hidden");
-    }
+    if (e.target === dialog) dialog.classList.add("hidden");
 });
