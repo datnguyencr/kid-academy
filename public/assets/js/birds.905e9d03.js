@@ -31,14 +31,14 @@ fetch("assets/data/birds.json")
                 const img = dialog.querySelector(".item-image");
                 img.src = `assets/images/birds/${item.image[0]}`;
                 img.alt = item.name;
-                playBtn.onclick = () => {
+                name.onclick = () => {
                     audio.src = `assets/media/birds/${item.sound[0]}`;
                     audio.currentTime = 0;
                     audio.play().catch((err) => {
                         console.error("Audio play failed:", err);
                     });
                 };
-                img.onclick = () => {
+                playBtn.onclick = () => {
                     const audio = new Audio(
                         `assets/media/birds/${item.sound[0]}`
                     );
