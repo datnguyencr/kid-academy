@@ -2,17 +2,23 @@
     "items": [
         { "name": "one", "image": ["1.avif"], "sound": ["1.mp3"] },
         { "name": "two", "image": ["2.avif"], "sound": ["2.mp3"] },
-        {
-            "name": "three",
-            "image": ["3.avif"],
-            "sound": ["3.mp3"]
-        },
+        { "name": "three", "image": ["3.avif"], "sound": ["3.mp3"] },
         { "name": "four", "image": ["4.avif"], "sound": ["4.mp3"] },
         { "name": "five", "image": ["5.avif"], "sound": ["5.mp3"] },
         { "name": "six", "image": ["6.avif"], "sound": ["6.mp3"] },
         { "name": "seven", "image": ["7.avif"], "sound": ["7.mp3"] },
         { "name": "eight", "image": ["8.avif"], "sound": ["8.mp3"] },
         { "name": "nine", "image": ["9.avif"], "sound": ["9.mp3"] },
-        { "name": "ten", "image": ["10.avif"], "sound": ["10.mp3"] }
+        { "name": "ten", "image": ["10.avif"], "sound": ["10.mp3"] },
+        { "name": "eleven", "image": ["11.avif"], "sound": ["11.mp3"] },
+        { "name": "twelve", "image": ["12.avif"], "sound": ["12.mp3"] },
+        { "name": "thirteen", "image": ["13.avif"], "sound": ["13.mp3"] },
+        { "name": "fourteen", "image": ["14.avif"], "sound": ["14.mp3"] },
+        { "name": "fifteen", "image": ["15.avif"], "sound": ["15.mp3"] },
+        { "name": "sixteen", "image": ["16.avif"], "sound": ["16.mp3"] },
+        { "name": "seventeen", "image": ["17.avif"], "sound": ["17.mp3"] },
+        { "name": "eighteen", "image": ["18.avif"], "sound": ["18.mp3"] },
+        { "name": "nineteen", "image": ["19.avif"], "sound": ["19.mp3"] },
+        { "name": "twenty", "image": ["20.avif"], "sound": ["20.mp3"] }
     ]
 }
