@@ -1,0 +1,30 @@
+{
+    "items": [
+        { "name": "a", "image": ["a.avif"], "sound": ["a.mp3"] },
+        { "name": "b", "image": ["b.avif"], "sound": ["b.mp3"] },
+        { "name": "c", "image": ["c.avif"], "sound": ["c.mp3"] },
+        { "name": "d", "image": ["d.avif"], "sound": ["d.mp3"] },
+        { "name": "e", "image": ["e.avif"], "sound": ["e.mp3"] },
+        { "name": "f", "image": ["f.avif"], "sound": ["f.mp3"] },
+        { "name": "g", "image": ["g.avif"], "sound": ["g.mp3"] },
+        { "name": "h", "image": ["h.avif"], "sound": ["h.mp3"] },
+        { "name": "i", "image": ["i.avif"], "sound": ["i.mp3"] },
+        { "name": "j", "image": ["j.avif"], "sound": ["j.mp3"] },
+        { "name": "k", "image": ["k.avif"], "sound": ["k.mp3"] },
+        { "name": "l", "image": ["l.avif"], "sound": ["l.mp3"] },
+        { "name": "m", "image": ["m.avif"], "sound": ["m.mp3"] },
+        { "name": "n", "image": ["n.avif"], "sound": ["n.mp3"] },
+        { "name": "o", "image": ["o.avif"], "sound": ["o.mp3"] },
+        { "name": "p", "image": ["p.avif"], "sound": ["p.mp3"] },
+        { "name": "q", "image": ["q.avif"], "sound": ["q.mp3"] },
+        { "name": "r", "image": ["r.avif"], "sound": ["r.mp3"] },
+        { "name": "s", "image": ["s.avif"], "sound": ["s.mp3"] },
+        { "name": "t", "image": ["t.avif"], "sound": ["t.mp3"] },
+        { "name": "u", "image": ["u.avif"], "sound": ["u.mp3"] },
+        { "name": "v", "image": ["v.avif"], "sound": ["v.mp3"] },
+        { "name": "w", "image": ["w.avif"], "sound": ["w.mp3"] },
+        { "name": "x", "image": ["x.avif"], "sound": ["x.mp3"] },
+        { "name": "y", "image": ["y.avif"], "sound": ["y.mp3"] },
+        { "name": "z", "image": ["z.avif"], "sound": ["z.mp3"] }
+    ]
+}
