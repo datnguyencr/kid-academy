@@ -1,3 +1,4 @@
+import * as Utils from "./utils.a36cfcb5.js";
 const container = document.getElementById("items");
 const template = document.getElementById("item-template");
 const dialog = document.getElementById("dialog");
@@ -41,7 +42,7 @@ async function loadCategory() {
                 dialogImg.onclick = playBtn.onclick;
 
                 dialog.classList.remove("hidden");
-                applyLanguage(language()); // Only needed here for dialog texts
+                Utils.applyLanguage(Utils.language()); // Only needed here for dialog texts
             });
 
             fragment.appendChild(clone);
@@ -50,7 +51,7 @@ async function loadCategory() {
         container.appendChild(fragment);
 
         // Apply language once after all items are added
-        applyLanguage(language());
+        Utils.applyLanguage(Utils.language());
     } catch (err) {
         console.error("Error loading data:", err);
     }
@@ -62,3 +63,5 @@ loadCategory();
 dialog.addEventListener("click", (e) => {
     if (e.target === dialog) dialog.classList.add("hidden");
 });
+
+//Utils.enableContentProtection();
