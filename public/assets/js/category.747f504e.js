@@ -63,5 +63,18 @@ loadCategory();
 dialog.addEventListener("click", (e) => {
     if (e.target === dialog) dialog.classList.add("hidden");
 });
+// Assign the button by ID
+const testMenuBtn = document.getElementById("test-menu-btn");
+
+// Get current category
+const params = new URLSearchParams(window.location.search);
+const category = params.get("category");
+
+// Attach click event
+if (testMenuBtn && category) {
+    testMenuBtn.addEventListener("click", () => {
+        location.href = `quizz.html?category=${category}`;
+    });
+}
 
 //Utils.enableContentProtection();

@@ -18,3 +18,42 @@
     transform: scale(1.05);
     transition: 0.2s;
 }
+@keyframes flicker-green {
+    0%,
+    40%,
+    80%,
+    100% {
+        box-shadow: 0 0 10px #29e46d;
+        background-color: #29e46d;
+    }
+    20%,
+    60% {
+        box-shadow: 0 0 2px #19b954;
+        background-color: #19b954;
+    }
+}
+
+@keyframes flicker-red {
+    0%,
+    40%,
+    80%,
+    100% {
+        box-shadow: 0 0 10px #fa5757;
+        background-color: #fa5757;
+    }
+    20%,
+    60% {
+        box-shadow: 0 0 2px #ef4444;
+        background-color: #ef4444;
+    }
+}
+
+.flicker-green {
+    animation: flicker-green 1.6s linear; /* 1.6s → 4 steps, each ~0.4s */
+    color: white;
+}
+
+.flicker-red {
+    animation: flicker-red 1.6s linear;
+    color: white;
+}
