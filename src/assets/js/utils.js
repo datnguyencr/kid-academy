@@ -1,6 +1,3 @@
-tailwind.config = {
-    darkMode: "class",
-};
 const savedTheme = localStorage.getItem("theme");
 const html = document.documentElement;
 if (savedTheme === "dark") {

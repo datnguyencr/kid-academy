@@ -1,4 +1,4 @@
-import * as Utils from "./utils.a36cfcb5.js";
+import * as Utils from "./utils.js";
 
 const questionImage = document.getElementById("question-image");
 const answersDiv = document.getElementById("answers");
@@ -38,12 +38,12 @@ async function loadQuiz() {
             options.forEach((name) => {
                 const found = data.items.find((i) => i.name === name);
                 sounds[name] = found
-                    ? `assets/media/${category}/${found.sound[0]}`
+                    ? `media/${category}/${found.sound[0]}`
                     : null;
             });
 
             return {
-                image: `assets/images/${category}/${item.image[0]}`,
+                image: `images/${category}/${item.image[0]}`,
                 options,
                 correct: item.name,
                 sounds,

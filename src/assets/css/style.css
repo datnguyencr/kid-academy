@@ -57,3 +57,10 @@
     animation: flicker-red 1.6s linear;
     color: white;
 }
+
+@import "tailwindcss";
+
+@source "../**/*.html";
+@source "../**/*.js";
+
+@custom-variant dark (&:where(.dark, .dark *));

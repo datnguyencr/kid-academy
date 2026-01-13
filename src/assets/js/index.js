@@ -1,23 +1,23 @@
-import * as Utils from "./utils.a36cfcb5.js";
+import * as Utils from "./utils.js";
 const categories = [
     {
         title: "alphabetTitle",
         desc: "alphabetDesc",
-        image: "assets/images/alphabet.avif",
+        image: "images/alphabet.avif",
         id: "alphabet",
         bg: "bg-red-400",
     },
     {
         title: "numbersTitle",
         desc: "numbersDesc",
-        image: "assets/images/numbers.avif",
+        image: "images/numbers.avif",
         id: "numbers",
         bg: "bg-yellow-400",
     },
     {
         title: "animalsTitle",
         desc: "animalsDesc",
-        image: "assets/images/animals.avif",
+        image: "images/animals.avif",
         id: "animals",
         bg: "bg-amber-800",
         textColor: "text-white",
@@ -25,21 +25,21 @@ const categories = [
     {
         title: "birdsTitle",
         desc: "birdsDesc",
-        image: "assets/images/birds.avif",
+        image: "images/birds.avif",
         id: "birds",
         bg: "bg-blue-400",
     },
     {
         title: "fruitsTitle",
         desc: "fruitsDesc",
-        image: "assets/images/fruits.avif",
+        image: "images/fruits.avif",
         id: "fruits",
         bg: "bg-green-400",
     },
     {
         title: "vegetablesTitle",
         desc: "vegetablesDesc",
-        image: "assets/images/vegetables.avif",
+        image: "images/vegetables.avif",
         id: "vegetables",
         bg: "bg-green-400",
     },

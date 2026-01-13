@@ -1,4 +1,4 @@
-import * as Utils from "./utils.a36cfcb5.js";
+import * as Utils from "./utils.js";
 const container = document.getElementById("items");
 const template = document.getElementById("item-template");
 const dialog = document.getElementById("dialog");
@@ -21,7 +21,7 @@ async function loadCategory() {
             const img = clone.querySelector(".item-image");
             const name = clone.querySelector(".item-name");
 
-            img.src = `assets/images/${category}/${item.image[0]}`;
+            img.src = `images/${category}/${item.image[0]}`;
             img.alt = item.name;
             name.dataset.i18n = item.name;
 
@@ -32,13 +32,11 @@ async function loadCategory() {
                 const playBtn = dialog.querySelector(".play-btn");
 
                 dialogName.dataset.i18n = item.name;
-                dialogImg.src = `assets/images/${category}/${item.image[0]}`;
+                dialogImg.src = `images/${category}/${item.image[0]}`;
                 dialogImg.alt = item.name;
 
                 playBtn.onclick = () =>
-                    new Audio(
-                        `assets/media/${category}/${item.sound[0]}`
-                    ).play();
+                    new Audio(`media/${category}/${item.sound[0]}`).play();
                 dialogImg.onclick = playBtn.onclick;
 
                 dialog.classList.remove("hidden");
