@@ -112,3 +112,6 @@ function checkAnswer(selected, correct, btn, soundUrl) {
 }
 
 loadQuiz();
+if (Utils.isProduction()) {
+    Utils.enableContentProtection();
+}

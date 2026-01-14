@@ -75,4 +75,6 @@ if (testMenuBtn && category) {
     });
 }
 
-//Utils.enableContentProtection();
+if (Utils.isProduction()) {
+    Utils.enableContentProtection();
+}

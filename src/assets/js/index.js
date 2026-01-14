@@ -114,4 +114,6 @@ languageSelect.addEventListener("change", (e) => {
 });
 Utils.applyLanguage(Utils.language());
 
-//Utils.enableContentProtection();
+if (Utils.isProduction()) {
+    Utils.enableContentProtection();
+}

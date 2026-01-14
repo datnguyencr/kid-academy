@@ -445,3 +445,6 @@ function hideWarning() {
     banner.classList.add("hidden");
     banner.classList.remove("animate-bounce");
 }
+export function isProduction() {
+    return import.meta.env.PROD;
+}
