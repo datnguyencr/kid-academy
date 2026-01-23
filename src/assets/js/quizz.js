@@ -31,7 +31,7 @@ async function loadQuiz() {
                 .map((i) => i.name);
 
             const options = [...wrongOptions, item.name].sort(
-                () => 0.5 - Math.random()
+                () => 0.5 - Math.random(),
             );
 
             const sounds = {};
@@ -72,7 +72,7 @@ function loadQuestion(index) {
         const soundUrl = q.sounds[option];
 
         btn.addEventListener("click", () =>
-            checkAnswer(option, q.correct, btn, soundUrl)
+            checkAnswer(option, q.correct, btn, soundUrl),
         );
 
         answersDiv.appendChild(btn);
@@ -106,7 +106,7 @@ function checkAnswer(selected, correct, btn, soundUrl) {
             "bg-white",
             "dark:bg-gray-700",
             "hover:bg-blue-100",
-            "dark:hover:bg-blue-700"
+            "dark:hover:bg-blue-700",
         );
     }, 1600);
 }
@@ -115,3 +115,13 @@ loadQuiz();
 if (Utils.isProduction()) {
     Utils.enableContentProtection();
 }
+nextBtn.addEventListener("click", () => {
+    currentIndex++;
+
+    if (currentIndex < quizData.length) {
+        loadQuestion(currentIndex);
+    } else {
+        // Quiz finished
+        handleQuizEnd();
+    }
+});

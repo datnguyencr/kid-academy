@@ -54,27 +54,40 @@ async function loadCategory() {
         console.error("Error loading data:", err);
     }
 }
+function handleQuizEnd() {
+    // Option A: restart quiz
+    currentIndex = 0;
+    loadQuestion(currentIndex);
 
-loadCategory();
+    // Option B: go back to category
+    // window.location.href = backBtn.href;
 
-// Close dialog when clicking outside the content
-dialog.addEventListener("click", (e) => {
-    if (e.target === dialog) dialog.classList.add("hidden");
-});
-// Assign the button by ID
-const testMenuBtn = document.getElementById("test-menu-btn");
+    // Option C: go to result page
+    // window.location.href = `result.html?category=${category}`;
+}
 
-// Get current category
-const params = new URLSearchParams(window.location.search);
-const category = params.get("category");
+document.addEventListener("DOMContentLoaded", async () => {
+    loadCategory();
 
-// Attach click event
-if (testMenuBtn && category) {
-    testMenuBtn.addEventListener("click", () => {
-        location.href = `quizz.html?category=${category}`;
+    // Close dialog when clicking outside the content
+    dialog.addEventListener("click", (e) => {
+        if (e.target === dialog) dialog.classList.add("hidden");
     });
-}
+    // Assign the button by ID
+    const testMenuBtn = document.getElementById("test-menu-btn");
 
-if (Utils.isProduction()) {
-    Utils.enableContentProtection();
-}
+    // Get current category
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get("category");
+
+    // Attach click event
+    if (testMenuBtn && category) {
+        testMenuBtn.addEventListener("click", () => {
+            location.href = `quizz.html?category=${category}`;
+        });
+    }
+
+    if (Utils.isProduction()) {
+        Utils.enableContentProtection();
+    }
+});
